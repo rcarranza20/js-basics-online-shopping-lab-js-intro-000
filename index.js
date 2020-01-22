@@ -34,10 +34,11 @@ else if(cart.length === 1){
   }
   return myString + 'and ${cart[cart.length-1].itemName} at ${cart[cart.length-1].itemPrice}.' 
   }
+}
   
   
 function total() {
-total = 0;
+let total = 0;
 for(i= 0; i < cart.length; i++){
 total += cart[i].itemPrice;}
 return total;
